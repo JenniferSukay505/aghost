@@ -15,12 +15,17 @@
 				integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
 				crossorigin="anonymous">
 
+
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"
 				integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
 
 		<!--Link to custom CSS files here-->
+		<!-- Bootstrap core CSS -->
+		<link href="./css/bootstrap.min.css" rel="stylesheet">
 
+		<!-- Custom styles for this template -->
+		<link href="./css/cover.css" rel="stylesheet">
 		<!--HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries-->
 		<!--WARNING: Respond.js doesn't work if you view the page via file://-->
 		<!--[if lt IE 9]>
@@ -43,23 +48,7 @@
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
 				  integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
 				  crossorigin="anonymous"></script>
-		<title>Ghost Writer Business Summary</title>
-
-
-
-
-			<!-- Bootstrap core CSS -->
-			<link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-
-			<!-- Custom styles for this template -->
-			<link href="/css/cover.css" rel="stylesheet">
-
-
-			<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-			<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-			<![endif]-->
+		<title>Just Talk</title>
 		</head>
 
 		<body>
@@ -72,7 +61,7 @@
 
 						<div class="masthead clearfix">
 							<div class="inner">
-								<h3 class="masthead-brand">Cover</h3>
+								<h3 class="masthead-brand">Just Talk</h3>
 								<nav>
 									<ul class="nav masthead-nav">
 										<li class="active"><a href="#">Home</a></li>
@@ -84,34 +73,44 @@
 						</div>
 
 						<div class="inner cover">
-							<h1 class="cover-heading">Cover your page.</h1>
-							<p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+							<h1 class="cover-heading">Just Talk</h1>
+							<p class="lead">Personalized Tweet Service for the busy netwroker.</p>
 							<p class="lead">
-								<a href="#" class="btn btn-lg btn-default">Learn more</a>
-							</p>
+							<div class="panel-offer">
+
+						</div>
+					</div>
+
+					<button class="btn btn-lg btn-default" type="button" data-toggle=modal" data-target="#myModal">Sign Up</a>
+							</p></button>
+						<!--Modal -->
+						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<?php include_once "./html/form.html" ?>
+							</div>
+						</div>
+					</div>
 						</div>
 
 						<div class="mastfoot">
 							<div class="inner">
-								<p>Ghost Rider</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+								<p>Ghost Writer</p>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
 							</div>
 						</div>
 
 					</div>
 
-				</div>
 
-			</div>
 
 			<!-- Bootstrap core JavaScript
 			================================================== -->
-			<!-- Placed at the end of the document so the pages load faster -->
 			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-			<script src="../../dist/js/bootstrap.min.js"></script>
+			<script src="/js/bootstrap.min.js"></script>
 			<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-			<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 		</body>
-	</html>
+	<script type="text/javascript" src="/js/signup.js"></script>
+
+</html>
 
 
 
