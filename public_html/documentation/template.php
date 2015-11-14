@@ -26,9 +26,9 @@
 		<link rel="stylesheet" href="://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
 
 		<!--Link to custom CSS files here-->
-		<link type="text/css" href="/css/sidepanel.css" rel="stylesheet">
-		<link type="text/css" href="/css/footer.css" rel="stylesheet">
-		<link type="text/css" href="/css/style.css" rel="stylesheet">
+		<link type="text/css" href="../../css/sidepanel.css" rel="stylesheet">
+		<link type="text/css" href="../../css/footer.css" rel="stylesheet">
+		<link type="text/css" href="../../css/style.css" rel="stylesheet">
 
 
 		<!--HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries-->
@@ -143,7 +143,7 @@
 						<div class="feed-wrapper">
 
 							<div id="karma-feed" class="karma-feed">
-
+							<div class="row"><h1>Tweet Suggestions</h1>
 
 								<div class="listing clearfix panel panel-default">
 									<div class="panel-heading">
@@ -214,9 +214,7 @@
 								</div>
 							</div>
 						</div>
-				</div>
-			</div>
-		</div>
+
 
 
 		<div class="listing clearfix panel panel-default">
@@ -419,6 +417,7 @@
 							</div>
 						</div>
 					</div>
+				</div>
 				</div>
 
 
