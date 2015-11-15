@@ -28,7 +28,7 @@
 		<!--Link to custom CSS files here-->
 		<link type="text/css" href="../../css/sidepanel.css" rel="stylesheet">
 		<link type="text/css" href="../../css/footer.css" rel="stylesheet">
-		<link type="text/css" href="../../css/style.css" rel="stylesheet">
+		<link type="text/css" href="../../css/template.css" rel="stylesheet">
 
 
 		<!--HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries-->
@@ -78,7 +78,7 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar" href="#">Brand</a>
+							<a class="navbar-icon" href="#"><img src="/img/ghostieicon2.png"></a>
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
@@ -110,6 +110,10 @@
 								<li><br></li>
 								<li><br></li>
 								<li><br></li>
+								<li><br></li>
+								<li><br></li>
+
+
 
 								<li><a href="#"><i class="fa fa-pencil"></i>&nbsp;Settings</a></li>
 								<li><br></li>
@@ -142,44 +146,10 @@
 						<!-- load feed -->
 						<div class="feed-wrapper">
 
-							<div id="karma-feed" class="karma-feed">
-							<div class="row"><h1>Tweet Suggestions</h1>
-
-								<div class="listing clearfix panel panel-default">
-									<div class="panel-heading">
-										<h4 class="listing-title">
-											Tweet title here
-										</h4>
-									</div>
+							<div id="tweet-feed" class=tweet-feed">
+							<div class="row">
+								<h1>Tweet Suggestions</h1>
 								</div>
-
-								<div class="panel-body">
-									<p class="listing-text">
-										Tweet text here
-									</p>
-
-									<div class="panel-offer">
-										<button class="listing-button" type="button" class="btn btn-primary btn-md"
-												  data-toggle="modal" data-target="#myModal">
-											Edit
-										</button>
-										<button class="listing-button" type="button" class="btn btn-primary btn-md"
-												  data-toggle="modal" data-target="#myModal">
-											Tweet Now
-										</button>
-										<button class="listing-button" type="button" class="btn btn-primary btn-md"
-												  data-toggle="modal" data-target="#myModal">
-											Schedule Tweet
-										</button>
-										<button class="listing-button" type="button" class="btn btn-primary btn-md"
-												  data-toggle="modal" data-target="#myModal">
-											Decline
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-
 
 						<div class="listing clearfix panel panel-default">
 							<div class="panel-heading">
@@ -194,21 +164,19 @@
 
 								<div class="panel-offer">
 									<div class="panel-offer">
-										<button class="listing-button" type="button" class="btn btn-primary btn-md"
+										<button class="btn btn-primary btn-md" type="button"
 												  data-toggle="modal" data-target="#myModal">
 											Edit
 										</button>
-										<button class="listing-button" type="button" class="btn btn-primary btn-md"
+										<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Schedule
+											<span class="caret"></span></button>
+										<ul class="dropdown-menu">
+											<li><a href="#">Tweet Now</a></li>
+											<li><a href="#">Schedule Date/Time</a></li>
+										</ul>
+										<button class="btn btn-primary btn-md"type="button"
 												  data-toggle="modal" data-target="#myModal">
-											Tweet Now
-										</button>
-										<button class="listing-button" type="button" class="btn btn-primary btn-md"
-												  data-toggle="modal" data-target="#myModal">
-											Schedule Tweet
-										</button>
-										<button class="listing-button" type="button" class="btn btn-primary btn-md"
-												  data-toggle="modal" data-target="#myModal">
-											Decline
+											Delete
 										</button>
 									</div>
 								</div>
@@ -217,209 +185,377 @@
 
 
 
-		<div class="listing clearfix panel panel-default">
-			<div class="panel-heading">
-				<h4 class="listing-title">
-					Twitter title here.
-				</h4>
-			</div>
-			<div class="panel-body">
-				<p class="listing-text">
-					Twitter text here.
-				</p>
+							<div class="listing clearfix panel panel-default">
+								<div class="panel-heading">
+									<h4 class="listing-title">
+										Tweet title here
+									</h4>
+								</div>
+								<div class="panel-body">
+									<p class="listing-text">
+										Tweet text here.
+									</p>
 
-				<div class="panel-offer">
-					<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-							  data-target="#myModal">
-						Edit
-					</button>
-					<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-							  data-target="#myModal">
-						Tweet Now
-					</button>
-					<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-							  data-target="#myModal">
-						Schedule Tweet
-					</button>
-					<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-							  data-target="#myModal">
-						Decline
-					</button>
-				</div>
-			</div>
-		</div>
-
-		<div class="listing clearfix panel panel-default">
-			<div class="panel-heading">
-				<h4 class="listing-title">
-					Twitter title here.
-				</h4>
-			</div>
-			<div class="panel-body">
-				<div class="panel-offer">
-					<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-							  data-target="#myModal">
-						Edit
-					</button>
-					<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-							  data-target="#myModal">
-						Tweet Now
-					</button>
-					<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-							  data-target="#myModal">
-						Schedule Tweet
-					</button>
-					<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-							  data-target="#myModal">
-						Decline
-					</button>
-				</div>
-			</div>
-		</div>
-
-		<div class="listing clearfix panel panel-default">
-			<div class="panel-heading">
-				<h4 class="listing-title">
-					Twitter title here.
-				</h4>
-			</div>
-			<div class="panel-body">
-				<p class="listing-text">
-					Twitter text here.
-				</p>
-
-				<div class="panel-offer">
-					<div class="panel-offer">
-						<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-								  data-target="#myModal">
-							Edit
-						</button>
-						<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-								  data-target="#myModal">
-							Tweet Now
-						</button>
-						<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-								  data-target="#myModal">
-							Schedule Tweet
-						</button>
-						<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-								  data-target="#myModal">
-							Decline
-						</button>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="listing clearfix panel panel-default">
-			<div class="panel-heading">
-				<h4 class="listing-title">
-					Twitter title here.
-				</h4>
-			</div>
-			<div class="panel-body">
-				<p class="listing-text">
-					Twitter text here.
-				</p>
-
-				<div class="panel-offer">
-					<div class="panel-offer">
-						<div class="panel-offer">
-							<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-									  data-target="#myModal">
-								Edit
-							</button>
-							<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-									  data-target="#myModal">
-								Tweet Now
-							</button>
-							<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-									  data-target="#myModal">
-								Schedule Tweet
-							</button>
-							<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-									  data-target="#myModal">
-								Decline
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="listing clearfix panel panel-default">
-			<div class="panel-heading">
-				<h4 class="listing-title">
-					Twitter title here.
-				</h4>
-			</div>
-			<div class="panel-body">
-				<p class="listing-text">
-					Twitter text here.
-				</p>
-
-				<div class="panel-offer">
-					<div class="panel-offer">
-						<div class="panel-offer">
-							<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-									  data-target="#myModal">
-								Edit
-							</button>
-							<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-									  data-target="#myModal">
-								Tweet Now
-							</button>
-							<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-									  data-target="#myModal">
-								Schedule Tweet
-							</button>
-							<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-									  data-target="#myModal">
-								Decline
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="listing clearfix panel panel-default">
-				<div class="panel-heading">
-					<h4 class="listing-title">
-						Twitter title here.
-					</h4>
-				</div>
-				<div class="panel-body">
-					<p class="listing-text">
-						Twitter text here.
-					</p>
-
-					<div class="panel-offer">
-						<div class="panel-offer">
-							<div class="panel-offer">
-								<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-										  data-target="#myModal">
-									Edit
-								</button>
-								<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-										  data-target="#myModal">
-									Tweet Now
-								</button>
-								<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-										  data-target="#myModal">
-									Schedule Tweet
-								</button>
-								<button class="listing-button" type="button" class="btn btn-primary btn-md" data-toggle="modal"
-										  data-target="#myModal">
-									Decline
-								</button>
+									<div class="panel-offer">
+										<div class="panel-offer">
+											<button class="btn btn-primary btn-md" type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Edit
+											</button>
+											<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Schedule
+												<span class="caret"></span></button>
+											<ul class="dropdown-menu">
+												<li><a href="#">Tweet Now</a></li>
+												<li><a href="#">Schedule Date/Time</a></li>
+											</ul>
+											<button class="btn btn-primary btn-md"type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Delete
+											</button>
+										</div>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-				</div>
 
+
+
+							<div class="listing clearfix panel panel-default">
+								<div class="panel-heading">
+									<h4 class="listing-title">
+										Tweet title here
+									</h4>
+								</div>
+								<div class="panel-body">
+									<p class="listing-text">
+										Tweet text here.
+									</p>
+
+									<div class="panel-offer">
+										<div class="panel-offer">
+											<button class="btn btn-primary btn-md" type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Edit
+											</button>
+											<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Schedule
+												<span class="caret"></span></button>
+											<ul class="dropdown-menu">
+												<li><a href="#">Tweet Now</a></li>
+												<li><a href="#">Schedule Date/Time</a></li>
+											</ul>
+											<button class="btn btn-primary btn-md"type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Delete
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="listing clearfix panel panel-default">
+								<div class="panel-heading">
+									<h4 class="listing-title">
+										Tweet title here
+									</h4>
+								</div>
+								<div class="panel-body">
+									<p class="listing-text">
+										Tweet text here.
+									</p>
+
+									<div class="panel-offer">
+										<div class="panel-offer">
+											<button class="btn btn-primary btn-md" type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Edit
+											</button>
+											<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Schedule
+												<span class="caret"></span></button>
+											<ul class="dropdown-menu">
+												<li><a href="#">Tweet Now</a></li>
+												<li><a href="#">Schedule Date/Time</a></li>
+											</ul>
+											<button class="btn btn-primary btn-md"type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Delete
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="listing clearfix panel panel-default">
+								<div class="panel-heading">
+									<h4 class="listing-title">
+										Tweet title here
+									</h4>
+								</div>
+								<div class="panel-body">
+									<p class="listing-text">
+										Tweet text here.
+									</p>
+
+									<div class="panel-offer">
+										<div class="panel-offer">
+											<button class="btn btn-primary btn-md" type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Edit
+											</button>
+											<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Schedule
+												<span class="caret"></span></button>
+											<ul class="dropdown-menu">
+												<li><a href="#">Tweet Now</a></li>
+												<li><a href="#">Schedule Date/Time</a></li>
+											</ul>
+											<button class="btn btn-primary btn-md"type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Delete
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="listing clearfix panel panel-default">
+								<div class="panel-heading">
+									<h4 class="listing-title">
+										Tweet title here
+									</h4>
+								</div>
+								<div class="panel-body">
+									<p class="listing-text">
+										Tweet text here.
+									</p>
+
+									<div class="panel-offer">
+										<div class="panel-offer">
+											<button class="btn btn-primary btn-md" type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Edit
+											</button>
+											<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Schedule
+												<span class="caret"></span></button>
+											<ul class="dropdown-menu">
+												<li><a href="#">Tweet Now</a></li>
+												<li><a href="#">Schedule Date/Time</a></li>
+											</ul>
+											<button class="btn btn-primary btn-md"type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Delete
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="listing clearfix panel panel-default">
+								<div class="panel-heading">
+									<h4 class="listing-title">
+										Tweet title here
+									</h4>
+								</div>
+								<div class="panel-body">
+									<p class="listing-text">
+										Tweet text here.
+									</p>
+
+									<div class="panel-offer">
+										<div class="panel-offer">
+											<button class="btn btn-primary btn-md" type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Edit
+											</button>
+											<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Schedule
+												<span class="caret"></span></button>
+											<ul class="dropdown-menu">
+												<li><a href="#">Tweet Now</a></li>
+												<li><a href="#">Schedule Date/Time</a></li>
+											</ul>
+											<button class="btn btn-primary btn-md"type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Delete
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="listing clearfix panel panel-default">
+								<div class="panel-heading">
+									<h4 class="listing-title">
+										Tweet title here
+									</h4>
+								</div>
+								<div class="panel-body">
+									<p class="listing-text">
+										Tweet text here.
+									</p>
+
+									<div class="panel-offer">
+										<div class="panel-offer">
+											<button class="btn btn-primary btn-md" type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Edit
+											</button>
+											<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Schedule
+												<span class="caret"></span></button>
+											<ul class="dropdown-menu">
+												<li><a href="#">Tweet Now</a></li>
+												<li><a href="#">Schedule Date/Time</a></li>
+											</ul>
+											<button class="btn btn-primary btn-md"type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Delete
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="listing clearfix panel panel-default">
+								<div class="panel-heading">
+									<h4 class="listing-title">
+										Tweet title here
+									</h4>
+								</div>
+								<div class="panel-body">
+									<p class="listing-text">
+										Tweet text here.
+									</p>
+
+									<div class="panel-offer">
+										<div class="panel-offer">
+											<button class="btn btn-primary btn-md" type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Edit
+											</button>
+											<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Schedule
+												<span class="caret"></span></button>
+											<ul class="dropdown-menu">
+												<li><a href="#">Tweet Now</a></li>
+												<li><a href="#">Schedule Date/Time</a></li>
+											</ul>
+											<button class="btn btn-primary btn-md"type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Delete
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="listing clearfix panel panel-default">
+								<div class="panel-heading">
+									<h4 class="listing-title">
+										Tweet title here
+									</h4>
+								</div>
+								<div class="panel-body">
+									<p class="listing-text">
+										Tweet text here.
+									</p>
+
+									<div class="panel-offer">
+										<div class="panel-offer">
+											<button class="btn btn-primary btn-md" type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Edit
+											</button>
+											<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Schedule
+												<span class="caret"></span></button>
+											<ul class="dropdown-menu">
+												<li><a href="#">Tweet Now</a></li>
+												<li><a href="#">Schedule Date/Time</a></li>
+											</ul>
+											<button class="btn btn-primary btn-md"type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Delete
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="listing clearfix panel panel-default">
+								<div class="panel-heading">
+									<h4 class="listing-title">
+										Tweet title here
+									</h4>
+								</div>
+								<div class="panel-body">
+									<p class="listing-text">
+										Tweet text here.
+									</p>
+
+									<div class="panel-offer">
+										<div class="panel-offer">
+											<button class="btn btn-primary btn-md" type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Edit
+											</button>
+											<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Schedule
+												<span class="caret"></span></button>
+											<ul class="dropdown-menu">
+												<li><a href="#">Tweet Now</a></li>
+												<li><a href="#">Schedule Date/Time</a></li>
+											</ul>
+											<button class="btn btn-primary btn-md"type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Delete
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="listing clearfix panel panel-default">
+								<div class="panel-heading">
+									<h4 class="listing-title">
+										Tweet title here
+									</h4>
+								</div>
+								<div class="panel-body">
+									<p class="listing-text">
+										Tweet text here.
+									</p>
+
+									<div class="panel-offer">
+										<div class="panel-offer">
+											<button class="btn btn-primary btn-md" type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Edit
+											</button>
+											<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Schedule
+												<span class="caret"></span></button>
+											<ul class="dropdown-menu">
+												<li><a href="#">Tweet Now</a></li>
+												<li><a href="#">Schedule Date/Time</a></li>
+											</ul>
+											<button class="btn btn-primary btn-md"type="button"
+													  data-toggle="modal" data-target="#myModal">
+												Delete
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
 
 				<!--.sfooter-content-->
 
@@ -431,5 +567,4 @@
 					</div>
 				</footer>
 	</body>
-	<script type="text/javascript" src="../js/form-scripts.js"></script>
 </html>

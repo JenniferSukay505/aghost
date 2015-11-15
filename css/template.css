@@ -54,6 +54,9 @@ footer {
 html { display: flex;}
 body { width: 100%;}
 
+h1 {
+	font-color:white;
+}
 .sfooter {
 	display: flex;
 	flex-direction: column;
@@ -66,4 +69,11 @@ body { width: 100%;}
 
 .img-thumbnail {
 	border-right:15px;
+}
+
+body {
+	background-color:black;
+}
+.navbar-fixed-top	{
+	background-color:peachpuff;
 }
