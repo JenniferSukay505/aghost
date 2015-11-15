@@ -13,8 +13,16 @@ footer {
 	background-color: #dddddd;
 }
 
+#nav {
+	background-color:#C9B4FF;
+}
 
-
+#navbar {
+	background-color:#C9B4FF;
+}
+h1 {
+	color:#C9B4FF;
+}
 footer {
 	padding: 20px 0;
 	margin-top: 20px;
@@ -75,7 +83,4 @@ body {
 
 .icon {
 	height:30px;
-}
-#navbar {
-background-color:#C9B4FF;
 }

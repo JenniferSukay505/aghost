@@ -3,7 +3,9 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+body {
+    background-color:black;
+}
 body,
 html {
     width: 100%;
@@ -30,12 +32,13 @@ h6 {
     font-weight: 400;
 }
 
+
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(/img/relaximage.jpeg) no-repeat center center;
+    background-color:black;
     background-size: cover;
 }
 
@@ -116,7 +119,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../startbootstrap-landing-page-1.0.4%202/img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
