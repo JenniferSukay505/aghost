@@ -68,7 +68,7 @@
 			<!--include the <head> tag-->
 			<header>
 				<nav class="navbar navbar-default navbar-fixed-top">
-					<div class="container-fluid">
+					<div class="container-fluid" id="navbar">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -78,7 +78,7 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-icon" href="#"><img src="/img/ghostieicon2.png"></a>
+							<a class="navbar-icon" href="#"><img class="icon"src="../../img/ghostieicon2.png"></a>
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
@@ -560,7 +560,7 @@
 				<!--.sfooter-content-->
 
 				<footer class="footer navbar-fixed-bottom">
-					<div class="container">
+					<div class="container" id="foot">
 						<a href="#">About </a>&nbsp;
 						<a href="#">FAQ </a>&nbsp;
 						<a href="#">Contact Us</a>

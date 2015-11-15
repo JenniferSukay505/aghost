@@ -13,9 +13,7 @@ footer {
 	background-color: #dddddd;
 }
 
-.navbar {
-	background-color: pink;
-}
+
 
 footer {
 	padding: 20px 0;
@@ -55,7 +53,7 @@ html { display: flex;}
 body { width: 100%;}
 
 h1 {
-	font-color:white;
+	font-color:#c9b4ff;
 }
 .sfooter {
 	display: flex;
@@ -74,6 +72,10 @@ h1 {
 body {
 	background-color:black;
 }
-.navbar-fixed-top	{
-	background-color:peachpuff;
+
+.icon {
+	height:30px;
+}
+#navbar {
+background-color:#C9B4FF;
 }

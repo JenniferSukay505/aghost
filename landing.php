@@ -1,119 +1,182 @@
-<!--landing page for justtalking-->
 
 <!DOCTYPE html>
-<html lang="en">
-	<head>
+<head>
+	<script src="//cdn.optimizely.com/js/3849050120.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<meta charset="utf-8">
-		<meta http-equiv="x-ua-compatible" content="IE=edge"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Home</title>
+	<meta name="description" content="Write a description for your new BowTie site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+	<meta name="author" content="BowTie Example Site">
+	<meta name="generator" content="BowTie.io">
+	<link rel="alternate" type="application/rss+xml" title="Your title - BowTie.io" href="/feed.xml" />
 
-		<!--javascript-->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Home - Your title - BowTie.io</title>
+	<meta name="description" content="Write a description for your new BowTie site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+	<meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="Home - Your title - BowTie.io"><meta property="og:site_name" content="Your title - BowTie.io"><meta property="og:description" content="Write a description for your new BowTie site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."><meta property="og:url" content="/entrepreneur/"><meta property="article:author" content="/about/">
 
 
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
-				integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
-				crossorigin="anonymous">
+	<link rel="shortcut icon" href="/favicon.ico">
 
+	<script type="text/javascript" src="/vendor/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="https://bowtie.io/assets/bowtie.js"></script>
+	<script type="text/javascript" src="/bowtie/api/users/info.js"></script>
+	<script type="text/javascript" src="/vendor/bowtie/bowtie.js"></script>
+	<script type="text/javascript" src="/vendor/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/js/theme.js"></script>
+	<script type="text/javascript" src="/js/index.js"></script>
+	<script type="text/javascript" src="/js/flash.js"></script>
+	<script type="text/javascript" src="/js/authentication.js"></script>
+	<script type="text/javascript" src="/vendor/retina.js/dist/retina.js"></script>
+	<script type="text/javascript" src="/js/prospect.js"></script>
+	<script type="text/javascript" src="/js/smoothscroll.js"></script>
 
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"
-				integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+	<link href="/css/main.css" rel="stylesheet">
+</head>
 
-		<!--Link to custom CSS files here-->
-		<!-- Bootstrap core CSS -->
-		<link href="./css/bootstrap.min.css" rel="stylesheet">
+<body>
+	<div id="landing">
+		<div id="flash-message" style="display:none;">
+			<div class="alert alert-alert fade in" style="display:none;">
+				<button class="close" aria-hidden="true" data-dismiss="alert" type="button">
+					x&nbsp;
 
-		<!-- Custom styles for this template -->
-		<link href="./css/cover.css" rel="stylesheet">
-		<!--HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries-->
-		<!--WARNING: Respond.js doesn't work if you view the page via file://-->
-		<!--[if lt IE 9]>
-		<script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
+					<span class="message">&nbsp;</span>
+				</button>
+			</div>
 
-		<!--js-cookie (for capstone) -->
-		<script type="text/javascript" src="//cdnjs.cloudfare.com/ajax/libs/js-cookie/2.0.2/js.cookie.min.js"></script>
+			<div class="alert alert-notice fade in" style="display:none;">
+				<button class="close" aria-hidden="true" data-dismiss="alert" type="button">
+					x&nbsp;
 
-		<!--jQuery (necessary for bootstrap's javaScript plugins)-->
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+					<span class="message">&nbsp;</span>
+				</button>
+			</div>
+		</div>
 
-		<!-- jQuery form validation and additional methods (for capstone) -->
-		<script type="text/javascript" src="//cdnjs.cloudfare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
-		<script type="text/javascript" src="//cdnjs.cloudfare/com/ajax/libs/jquery-validate/1.14.0/jquery.valiate.min.js"></script>
-		<script type="text/javascript" src="//cdnjs.cloudfare.com/ajax/libs/jquery-validate/1.14.0.additional-methods.min.js"></script>
+		<div id="content">
+			<nav id="nav" class="navbar navbarfixed" role="navigation" data-spy="affix" data-offset-top="0">
+				<div id="navbarinner" class="navbar-inner">
+					<div class="navbar-header">
+						<a class="site-title navbar-brand" href="/">
+							<img style="display:inline-block;" src="/img/logo.png" alt="}">
+						</a>
 
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
-				  integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
-				  crossorigin="anonymous"></script>
-		<title>Just Talking></title>
-		</head>
-
-		<body>
-
-			<div class="site-wrapper">
-
-				<div class="site-wrapper-inner">
-
-					<div class="cover-container">
-
-						<div class="masthead clearfix">
-							<div class="inner">
-								<h3 class="masthead-brand">Just Talking</h3>
-								<h2>Personalized tweet service for the busy networking</h2>
-								<nav>
-									<ul class="nav masthead-nav">
-										<li class="active"><a href="#">Home</a></li>
-										<li><a href="#">Features</a></li>
-										<li><a href="#">Contact</a></li>
-									</ul>
-								</nav>
-							</div>
-						</div>
-
-						<div class="inner cover">
-							<h1 class="cover-heading">Just Talk</h1>
-							<p class="lead">Personalized Tweet Service for the busy networker.</p>
-							<p class="lead">
-							<div class="panel-offer">
-
-						</div>
-					</div>
-
-					<button class="btn btn-lg btn-default" type="button" data-toggle=modal" data-target="#myModal">Sign Up</a>
-							</p></button>
-						<!--Modal -->
-						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-dialog" role="document">
-								<?php include_once "./html/form.html" ?>
-							</div>
-						</div>
-					</div>
-						</div>
-
-						<div class="mastfoot">
-							<div class="inner">
-								<p>Ghost Writer</p>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-							</div>
-						</div>
 
 					</div>
+				</div><!-- /.navbar-inner -->
+			</nav><!--.navbar -->
+
+			<!-- Section styles are 'section' 'section alt' 'section color' 'section black' 'section gradient' with the following helper classes for bg images 'cover' 'tile' 'parallax' 'fullscreen' -->
+			<!-- Hero layout classes are 'no-image' 'image-tagline' 'image-center' 'image-left' 'image-right' -->
+
+			<section id="hero" class="jumbotron section image-tagline cover parallax" style="background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.7)), url(/img/backgrounds/samplebackground.jpg) !important;">
+
+				<div class="container">
+					<div class="logo-display">
+						<h1 class="page-title">We are GhostWriter</h1>
+						<img class="logo container img hidden-xs circle" alt="Logo" src="/img/ghostieicon.png"></img>
+						<img class="logo container img-responsive visible-xs img circle" alt="Logo" src="/img/ghostieicon.png"></img>
+						<h1 class="page-title">Hello World</h1>
+					</div>
+					<h2>Tweets written and ready to go.</h2>
+					<p>GhostWriter automatically writes custom tweets<em>especially for you</em>.</p>
+					<br/>
+					<a href="#features">
+						<button class="btn btn-info">Learn More</button>
+					</a>
+				</div>
+			</section>
+
+			<div class="signup-form">
+				<form class="prospect-registration form-bloat form-stretch" method="post">
+					<div class="prospect-registration-pending">
+						<div class="input-append">
+							<input type="text" name="prospect[email]" type="text" placeholder="Email Address">
+							<button class="btn btn-default" type="submit">Get GhostWriter!</button>
+						</div>
+						<p class="help-block text-muted">We won't spam or sell your email.</p>
+					</div>
+					<div class="prospect-registration-successful" style="display:none;">
+						<h1>Thanks for Signing Up!</h1>
+						<h3>Keep an eye on your Email. We'll be in touch.</h3>
+					</div>
+				</form>
+			</div>
+
+			<section class="generic section alt">
+				<div class="container text-center">
+					your content here
+				</div>
+			</section>
+
+		</div>
+		<footer id="footer">
+			<a name="connect"></a>
+			<div class="container">
+				<!-- Social links are populated by your config.yml. Add any link you need. BowTie uses fonteawesome for icons -->
+
+				<div class="social-media">
+					<h5 class="title">Connect</h5>
+					<div>
 
 
 
-			<!-- Bootstrap core JavaScript
-			================================================== -->
-			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-			<script src="/js/bootstrap.min.js"></script>
-			<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-		</body>
-	<script type="text/javascript" src="/js/signup.js"></script>
-
-</html>
 
 
 
+
+
+
+
+
+
+						<a target="_blank" href="https://twitter.com/bowtie_io">
+							<i class="fa fa-twitter fa-2x"></i>
+						</a>
+
+
+
+						<a target="_blank" href="mailto:info@bowtie.io">
+							<i class="fa fa-envelope-o fa-2x"></i>
+						</a>
+
+
+					</div>
+				</div>
+
+				<div class="subfooter">
+					<!-- remove the commented out li below if you are using our terms of svc generator, add other legal links as you see fit-->
+					<nav id="legal-nav" class="legal" role="navigation">
+						<ul class="legal-links">
+							<li class="first">
+								<a class="legal-link" href="/privacy-policy.html" target="_blank">Privacy Policy</a>
+							</li>
+							<!--li>
+							<a class="legal-link" href="/terms_of_service.html" target="_blank">Terms of Service</a>
+						 </li-->
+						</ul>
+					</nav>
+
+					Made with <a href="https://bowtie.io">⋈ BowTie</a>.
+				</div>
+
+			</div>
+		</footer>
+<span id="top-link-block" class="hidden">
+  <a href="#top" class="well well-sm"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+	  <i class="fa fa-chevron-up"></i>
+  </a>
+</span><!-- /top-link-block -->
+
+
+
+		<!-- add custom tracking scripts below this line -->
+
+	</div>
+</body>
