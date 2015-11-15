@@ -1,3 +1,5 @@
+<!--landing page for justtalking-->
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -48,7 +50,7 @@
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
 				  integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
 				  crossorigin="anonymous"></script>
-		<title>Just Talk</title>
+		<title>Just Talking></title>
 		</head>
 
 		<body>
@@ -61,7 +63,8 @@
 
 						<div class="masthead clearfix">
 							<div class="inner">
-								<h3 class="masthead-brand">Just Talk</h3>
+								<h3 class="masthead-brand">Just Talking</h3>
+								<h2>Personalized tweet service for the busy networking</h2>
 								<nav>
 									<ul class="nav masthead-nav">
 										<li class="active"><a href="#">Home</a></li>
@@ -74,7 +77,7 @@
 
 						<div class="inner cover">
 							<h1 class="cover-heading">Just Talk</h1>
-							<p class="lead">Personalized Tweet Service for the busy netwroker.</p>
+							<p class="lead">Personalized Tweet Service for the busy networker.</p>
 							<p class="lead">
 							<div class="panel-offer">
 
